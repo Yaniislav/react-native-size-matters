@@ -26,6 +26,7 @@ declare module "react-native-size-matters" {
         translateY?: string | number;
     }
 
+    export function setGuidelineBaseValues(guidelineWidth: number, guidelineHeight: number): void;
     export function scale(size: number): number;
     export function verticalScale(size: number): number;
     export function moderateScale(size: number, factor?: number): number;
