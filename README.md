@@ -24,6 +24,10 @@ react-native-size-matters provides some simple tooling to make your scaling a wh
 The idea is to develop once on a standard ~5" screen mobile device and then simply apply the provided utils.  
 📖 You can read more about what led to this library on my blog post, which can be found in [this repo](./examples/BlogPost) or at [Medium](https://medium.com/soluto-engineering/size-matters-5aeeb462900a).
 
+## Guideline base sizes
+Default sizes are 350 for width and 680 for height. If you want to change them, use `BASE_GUIDELINE_WIDTH` and `BASE_GUIDELINE_HEIGHT`
+variables in react-native-config .env files.
+
 ## Api
 ### Scaling Functions
 ```js
